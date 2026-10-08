@@ -37,3 +37,4 @@ Broadcast address=192.168.40.255 (always the last address)
 default gateway: 192.168.40.129
 
 note: enable show labels mode on the interfaces (in order to assign the correct ip range on the router)
+- you can download the file of this project .pkt and import it on your cisco packet tracer
