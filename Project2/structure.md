@@ -1,5 +1,7 @@
 <img width="889" height="383" alt="image" src="https://github.com/user-attachments/assets/2a956094-3a25-4371-89a4-848158206d64" />
 
+---
+```
 Network  -> 192.168.1.0
 we need 3 subnets 
 2^n =3 -> n=2 in order to get 3 we need 4 subnets as we use even power 
@@ -21,3 +23,4 @@ Network ID= 192.168.1.128
 Broadcast ID=192.168.1.191  (127+64)
 Host range=192.168.1.129 -> 192.168.1.190
 Default Gateway= 192.168.1.129
+```
