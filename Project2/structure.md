@@ -24,3 +24,9 @@ Broadcast ID=192.168.1.191  (127+64)
 Host range=192.168.1.129 -> 192.168.1.190
 Default Gateway= 192.168.1.129
 ```
+
+---
+#    How to build this project
+
+
+<img width="1822" height="678" alt="image" src="https://github.com/user-attachments/assets/359195ee-5c7c-4b56-a690-004596590392" />
