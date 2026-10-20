@@ -208,6 +208,15 @@ text
 Switch# show port-security interface fastEthernet 0/1
 ```
 
-Use code with caution.
+<img width="675" height="658" alt="image" src="https://github.com/user-attachments/assets/d51f2d00-6d4d-4050-a6b3-03a386d18209" />
 
-Look for **Port Status: Secure-up**, **Violation Mode: Shutdown**, and **Sticky MAC Addresses: 1**.
+-----------
+
+# if you plugged off the port that you put a port-security on and connected another device with it
+- by default switch will block the ip that came to it
+- to solve this:
+  ```
+  Switch(config-if)# shutdown
+  #turn interface back on
+  Switch(config-if)# no shutdown
+  ```
